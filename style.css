@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 20px;
+}
+
+nav a {
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+h2 {
+  color: #333;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  padding: 10px;
+  border: 1px solid #444;
+}
+
+form {
+  margin: 20px auto;
+  width: 300px;
+  text-align: left;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  justify-items: center;
+}
+
+.grid img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
